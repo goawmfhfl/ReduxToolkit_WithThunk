@@ -14,3 +14,8 @@ Extention:
 
 1. apollo graphql
 2. graphql
+
+npm install redux-logger
+npm install reselect
+
+npm install @types/redux-logger

@@ -1,5 +1,4 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { GetAnimePage } from "../../services/animeService/__generated__/GetAnimePage";
 import { IHomePageState } from "./types";
 
 const initialState: IHomePageState = {
