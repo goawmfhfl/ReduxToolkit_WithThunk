@@ -9,12 +9,8 @@ class AnimeService {
         query: GET_ANIME_PAGE,
         variables: { page, perPage },
       });
-
       if (!response || !response.data)
         throw new Error("Cannot get anime list!");
-
-      console.log("Data", response.data);
-
       return response.data.Page;
     } catch (err) {
       throw console.log("err", err);

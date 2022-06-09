@@ -4,7 +4,6 @@ import { IHomePageState } from "./types";
 const initialState: IHomePageState = {
   animePage: null,
 };
-// unique Name,
 const HomePageSlice = createSlice({
   name: "homePage",
   initialState,

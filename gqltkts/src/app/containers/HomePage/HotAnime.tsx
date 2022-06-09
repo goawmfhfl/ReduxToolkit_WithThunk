@@ -17,8 +17,8 @@ export function HotAnime() {
 
   return (
     <HotAnimeContainer>
-      {animePage.media?.map((anime) => (
-        <AnimeItemContainer>
+      {animePage.media?.map((anime, index) => (
+        <AnimeItemContainer key={index}>
           <AnimeCover>
             <img src={anime?.coverImage?.extraLarge || ""} />
           </AnimeCover>
