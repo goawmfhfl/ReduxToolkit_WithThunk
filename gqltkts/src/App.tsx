@@ -1,11 +1,15 @@
-import React from 'react';
+import styled from "styled-components";
+
+const AppContainer = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
 
 function App() {
-  return (
-    <div className="App">
-     Hellow World
-    </div>
-  );
+  return <AppContainer className="App">Hellow World</AppContainer>;
 }
 
 export default App;
